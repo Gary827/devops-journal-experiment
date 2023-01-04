@@ -1,0 +1,1 @@
+docker run -d --name mariadb -p 3306:3306 --restart=always --priviliged --env MARIADB_USER=btuser --env MARIADB_PASSWORD=123456 --env MARIADB_ROOT_PASSWORD=123456 -v mariadb:/var/lib/mysql mariadb:latest
