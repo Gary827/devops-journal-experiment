@@ -1,0 +1,56 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "gary827_busybox:1.24.0",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "ImageID": "sha256:2bb8d1bc0e0743ef458c121f10c1dac4ccac36c43f7d45a5c86068aa961079f3",
+    "DiffIDs": [
+      "sha256:d7f400ce6d521fcd475153f20565aa841586e44ffdc7771719c3d5414562cfd7",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "gary827_busybox:1.24.0"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "container": "df0101302f642c89c1efa7450989d97c59c513b960a40aa2c2a3cead00cf07e6",
+      "created": "2023-02-08T15:43:24.983268246Z",
+      "docker_version": "20.10.23",
+      "history": [
+        {
+          "created": "2015-10-20T21:56:29Z",
+          "created_by": "/bin/sh -c #(nop) ADD file:566aa8660b389e4f828bd3e084158ce31f6b67db2a915fd02e7e346a7e163bb3 in /"
+        },
+        {
+          "created": "2015-10-20T21:56:30Z",
+          "created_by": "/bin/sh -c #(nop) CMD [\"sh\"]",
+          "empty_layer": true
+        },
+        {
+          "created": "2023-02-08T15:43:24Z",
+          "created_by": "/bin/sh -c #(nop)  CMD [\"ping\" \"www.google.com\"]",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:d7f400ce6d521fcd475153f20565aa841586e44ffdc7771719c3d5414562cfd7",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "ping",
+          "www.google.com"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ],
+        "Hostname": "3e10a20c1b67",
+        "Image": "sha256:e4a4ff8a080dadecd6a7516ec871280958abc01bb1417ee263955fe128431386"
+      }
+    }
+  }
+}
